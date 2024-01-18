@@ -13,7 +13,7 @@ var http = require('http');
  */
 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/clgproject")
+mongoose.connect("mongodb+srv://sahilramoliya3323:5IGi2RoR7JzIKclQ@college-project.jswghor.mongodb.net/")
   .then(() => { console.log("Connected !!!"); })
 
 
